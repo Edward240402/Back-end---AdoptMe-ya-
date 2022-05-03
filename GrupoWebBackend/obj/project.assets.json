@@ -6732,19 +6732,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sebas\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj",
+      "projectUniqueName": "D:\\Documentos\\2022-1\\EVOLUCION DE SOFTWARE\\TP\\V1\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
       "projectName": "GrupoWebBackend",
-      "projectPath": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj",
-      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\obj\\",
+      "projectPath": "D:\\Documentos\\2022-1\\EVOLUCION DE SOFTWARE\\TP\\V1\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\2022-1\\EVOLUCION DE SOFTWARE\\TP\\V1\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6851,7 +6856,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
