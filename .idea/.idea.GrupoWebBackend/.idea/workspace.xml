@@ -8,7 +8,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c0946c3-99d2-4862-9b43-d9f983b1f871" name="Changes" comment="fix:DomainAdoptionRequests: Added files to commit another domain.Added changes to checkout new branch" />
+    <list default="true" id="9c0946c3-99d2-4862-9b43-d9f983b1f871" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Controllers/PublicationsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Controllers/UserPublicationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Domain/Models/Publication.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Domain/Repositories/IPublicationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Domain/Services/Communications/PublicationResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Domain/Services/IPublicationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Persistence/Repositories/PublicationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Resources/PublicationFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Resources/PublicationResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Resources/SavePublicationResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/DomainPublications/Services/PublicationService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Update_at_05_11_2021_22_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Update_at_05_11_2021_22_52__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2021_3_42_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2021_3_42_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2021_9_43_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2021_9_43_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/GrupoWebBackend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/GrupoWebBackend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/Mapping/ResourceToModelProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/Mapping/ResourceToModelProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/Startup.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +54,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/GrupoWebBackend/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GrupoWebBackend/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Documentos/2022-1/EVOLUCION DE SOFTWARE/TP/V1/Back-end---AdoptMe-ya-/GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

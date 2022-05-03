@@ -7,14 +7,6 @@ using GrupoWebBackend.DomainAdvertisements.Domain.Repositories;
 using GrupoWebBackend.DomainAdvertisements.Domain.Services;
 using GrupoWebBackend.DomainAdvertisements.Persistence.Repositories;
 using GrupoWebBackend.DomainAdvertisements.Services;
-using GrupoWebBackend.DomainDistrict.Domain.Repositories;
-using GrupoWebBackend.DomainDistrict.Domain.Services;
-using GrupoWebBackend.DomainDistrict.Persistence.Repositories;
-using GrupoWebBackend.DomainDistrict.Services;
-using GrupoWebBackend.DomainPets.Domain.Repositories;
-using GrupoWebBackend.DomainPets.Domain.Services;
-using GrupoWebBackend.DomainPets.Persistence.Repositories;
-using GrupoWebBackend.DomainPets.Services;
 using GrupoWebBackend.DomainPublications.Domain.Repositories;
 using GrupoWebBackend.DomainPublications.Domain.Services;
 using GrupoWebBackend.DomainPublications.Persistence.Repositories;
@@ -79,8 +71,6 @@ namespace GrupoWebBackend
             // Dependency Injection Configuration
             services.AddScoped<IJwtHandler, JwtHandler>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<IPetRepository, PetRepository>();
-            services.AddScoped<IPetService, PetService>();
             services.AddScoped<IPublicationRepository, PublicationRepository>();
             services.AddScoped<IPublicationService, PublicationService>();
             services.AddScoped<IAdoptionsRequestsRepository,AdoptionsRequestsRepository>();
@@ -89,8 +79,6 @@ namespace GrupoWebBackend
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAdvertisementRepository, AdvertisementRepository>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();
-            services.AddScoped<IDistrictService, DistrictService>();
-            services.AddScoped<IDistrictRepository, DistrictRepository>();
             
             // AutoMapper Configuration
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
