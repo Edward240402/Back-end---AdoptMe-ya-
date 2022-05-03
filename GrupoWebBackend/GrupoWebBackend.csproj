@@ -28,7 +28,6 @@
     <ItemGroup>
       <Folder Include="DomainAdoptionsRequests\Domain" />
       <Folder Include="DomainAdvertisements\Domain" />
-      <Folder Include="DomainDistrict" />
       <Folder Include="DomainPets\Domain" />
       <Folder Include="DomainPublications\Domain" />
       <Folder Include="Shared" />
