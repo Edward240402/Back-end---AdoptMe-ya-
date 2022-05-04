@@ -3,6 +3,24 @@ using GrupoWebBackend.DomainAdoptionsRequests.Domain.Repositories;
 using GrupoWebBackend.DomainAdoptionsRequests.Domain.Services;
 using GrupoWebBackend.DomainAdoptionsRequests.Persistence.Repositories;
 using GrupoWebBackend.DomainAdoptionsRequests.Services;
+using GrupoWebBackend.DomainAdvertisements.Domain.Repositories;
+using GrupoWebBackend.DomainAdvertisements.Domain.Services;
+using GrupoWebBackend.DomainAdvertisements.Persistence.Repositories;
+using GrupoWebBackend.DomainAdvertisements.Services;
+using GrupoWebBackend.DomainPublications.Domain.Repositories;
+using GrupoWebBackend.DomainPublications.Domain.Services;
+using GrupoWebBackend.DomainPublications.Persistence.Repositories;
+using GrupoWebBackend.DomainPublications.Services;
+using GrupoWebBackend.Security.Authorization.Handlers.Implementations;
+using GrupoWebBackend.Security.Authorization.Handlers.Interfaces;
+using GrupoWebBackend.Security.Authorization.Middleware;
+using GrupoWebBackend.Security.Authorization.Settings;
+using GrupoWebBackend.Security.Domain.Repositories;
+using GrupoWebBackend.Security.Domain.Services;
+using GrupoWebBackend.Security.Persistence.Repositories;
+using GrupoWebBackend.Security.Services;
+using GrupoWebBackend.Shared.Persistence.Context;
+using GrupoWebBackend.Shared.Persistence.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -51,6 +69,16 @@ namespace GrupoWebBackend
             services.AddDbContext<AppDbContext>();
             
             // Dependency Injection Configuration
+            services.AddScoped<IJwtHandler, JwtHandler>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IPublicationRepository, PublicationRepository>();
+            services.AddScoped<IPublicationService, PublicationService>();
+            services.AddScoped<IAdoptionsRequestsRepository,AdoptionsRequestsRepository>();
+            services.AddScoped<IAdoptionsRequestsService,AdoptionsRequestsService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IAdvertisementRepository, AdvertisementRepository>();
+            services.AddScoped<IAdvertisementService, AdvertisementService>();
 
             services.AddScoped<IAdoptionsRequestsRepository,AdoptionsRequestsRepository>();
             services.AddScoped<IAdoptionsRequestsService,AdoptionsRequestsService>();

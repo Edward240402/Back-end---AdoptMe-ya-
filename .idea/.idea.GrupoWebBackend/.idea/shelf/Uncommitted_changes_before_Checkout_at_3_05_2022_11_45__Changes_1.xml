@@ -1,0 +1,19 @@
+﻿<changelist name="Uncommitted_changes_before_Checkout_at_3_05_2022_11_45_[Changes]1" date="1651596344210" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3/05/2022 11:45 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45_[Changes]1/GrupoWebBackend.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.assets.cache" />
+    <option name="AFTER_PATH" value="GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45_[Changes]1/GrupoWebBackend.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GrupoWebBackend/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="GrupoWebBackend/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_05_2022_11_45_[Changes]1/project.nuget.cache" />
+  </binary>
+</changelist>
