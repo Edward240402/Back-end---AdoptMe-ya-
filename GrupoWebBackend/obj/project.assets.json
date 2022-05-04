@@ -6732,31 +6732,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Eduardo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\2022-1\\EVOLUCION DE SOFTWARE\\TP\\V1\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Eduardo\\Documents\\Universidad\\Evolución de Software\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
       "projectName": "GrupoWebBackend",
-      "projectPath": "D:\\Documentos\\2022-1\\EVOLUCION DE SOFTWARE\\TP\\V1\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\2022-1\\EVOLUCION DE SOFTWARE\\TP\\V1\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\obj\\",
+      "projectPath": "C:\\Users\\Eduardo\\Documents\\Universidad\\Evolución de Software\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
+      "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eduardo\\Documents\\Universidad\\Evolución de Software\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6856,7 +6849,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
