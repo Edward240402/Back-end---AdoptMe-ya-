@@ -79,6 +79,9 @@ namespace GrupoWebBackend
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAdvertisementRepository, AdvertisementRepository>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();
+
+            services.AddScoped<IAdoptionsRequestsRepository,AdoptionsRequestsRepository>();
+            services.AddScoped<IAdoptionsRequestsService,AdoptionsRequestsService>();
             
             // AutoMapper Configuration
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
