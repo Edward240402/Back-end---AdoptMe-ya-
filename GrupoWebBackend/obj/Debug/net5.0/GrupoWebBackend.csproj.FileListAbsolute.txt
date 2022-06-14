@@ -926,3 +926,6 @@ E:\upc\evo\Backend\v15\GrupoWebBackend\GrupoWebBackend\obj\Debug\net5.0\refint\G
 E:\upc\evo\Backend\v15\GrupoWebBackend\GrupoWebBackend\obj\Debug\net5.0\GrupoWebBackend.pdb
 E:\upc\evo\Backend\v15\GrupoWebBackend\GrupoWebBackend\obj\Debug\net5.0\GrupoWebBackend.genruntimeconfig.cache
 E:\upc\evo\Backend\v15\GrupoWebBackend\GrupoWebBackend\obj\Debug\net5.0\ref\GrupoWebBackend.dll
+D:\UPC\2022 1\EVOLUCIÓN DE SOFTWARE\TF\Back-end---AdoptMe-ya-\GrupoWebBackend\obj\Debug\net5.0\GrupoWebBackend.dll
+D:\UPC\2022 1\EVOLUCIÓN DE SOFTWARE\TF\Back-end---AdoptMe-ya-\GrupoWebBackend\obj\Debug\net5.0\refint\GrupoWebBackend.dll
+D:\UPC\2022 1\EVOLUCIÓN DE SOFTWARE\TF\Back-end---AdoptMe-ya-\GrupoWebBackend\obj\Debug\net5.0\GrupoWebBackend.pdb

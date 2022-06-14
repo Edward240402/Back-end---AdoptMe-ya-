@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj": {}
+    "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj": {}
   },
   "projects": {
-    "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj": {
+    "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
+        "projectUniqueName": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
         "projectName": "GrupoWebBackend.Tests",
-        "projectPath": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
-        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend.Tests\\obj\\",
+        "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj": {
-                "projectPath": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj"
+              "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj": {
+                "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj"
               }
             }
           }
@@ -104,21 +104,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj": {
+    "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj",
+        "projectUniqueName": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
         "projectName": "GrupoWebBackend",
-        "projectPath": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj",
-        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "E:\\upc\\evo\\Backend\\v15\\GrupoWebBackend\\GrupoWebBackend\\obj\\",
+        "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,6 +217,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -225,7 +231,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
