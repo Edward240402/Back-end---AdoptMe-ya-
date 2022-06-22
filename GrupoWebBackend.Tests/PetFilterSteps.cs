@@ -25,6 +25,7 @@ namespace GrupoWebBackend.Tests
         private Uri _baseUri;
         private PetResource Pet { get; set; }
         private UserResource User { get; set; }
+        //private ConfiguredTaskAwaitable<HttpResponseMessage> Response { get; set; }
         private Task<HttpResponseMessage> Response { get; set; }
         private string _type { get; set; }
         private string _gender { get; set; }
@@ -96,18 +97,32 @@ namespace GrupoWebBackend.Tests
         {
             Response = Client.GetAsync(_baseUri);
         }
+
+        private void AssertExpectedTypeEqualResponseType(PetResource expectedResource, PetResource response)
+        {
+            Assert.AreEqual(expectedResource.Type, response.Type);
+        }
+        
+        private void AssertExpectedAttentionEqualResponseAttention(PetResource expectedResource, PetResource response)
+        {
+            Assert.AreEqual(expectedResource.Attention, response.Attention);
+        }
+        
+        private void AssertExpectedGenderEqualResponseGender(PetResource expectedResource, PetResource response)
+        {
+            Assert.AreEqual(expectedResource.Gender, response.Gender);
+        }
         
         [Then(@"A Pet Resource is included in Response Body")]
         public async void ThenAPetResourceIsIncludedInResponseBody(Table expectedProductResource)
         {
             var expectedResource = expectedProductResource.CreateSet<PetResource>().First();
-            // var responseData = await Response.GetAwaiter().GetResult().Content.ReadAsStringAsync();
             var responseData = await Response.Result.Content.ReadAsStringAsync();
             var resource = JsonConvert.DeserializeObject<List<PetResource>>(responseData);
 
-            Assert.AreEqual(expectedResource.Type, resource.First().Type);
-            if(isAttentionAvailable) Assert.AreEqual(expectedResource.Attention, resource.First().Attention);
-            if(isGenderAvailable) Assert.AreEqual(expectedResource.Gender, resource.First().Gender);
+            AssertExpectedTypeEqualResponseType(expectedResource, resource.First());
+            if(isAttentionAvailable) AssertExpectedAttentionEqualResponseAttention(expectedResource, resource.First());
+            if(isGenderAvailable) AssertExpectedGenderEqualResponseGender(expectedResource, resource.First());
         }
 
         [Then(@"An empty list is included in Response Body")]
