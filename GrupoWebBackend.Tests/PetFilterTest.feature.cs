@@ -204,7 +204,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "1000",
                             "1"});
 #line 20
- testRunner.Then("A Pet Resource is included in Response Body", ((string)(null)), table13, "Then ");
+ testRunner.Then("A Pet Resource is included in Response Body with one Filter", ((string)(null)), table13, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -315,7 +315,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "1000",
                             "1"});
 #line 32
-  testRunner.Then("A Pet Resource is included in Response Body", ((string)(null)), table14, "Then ");
+  testRunner.Then("A Pet Resource is included in Response Body with many Filters", ((string)(null)), table14, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

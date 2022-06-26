@@ -113,16 +113,26 @@ namespace GrupoWebBackend.Tests
             Assert.AreEqual(expectedResource.Gender, response.Gender);
         }
         
-        [Then(@"A Pet Resource is included in Response Body")]
-        public async void ThenAPetResourceIsIncludedInResponseBody(Table expectedProductResource)
+        [Then(@"A Pet Resource is included in Response Body with one Filter")]
+        public async void ThenAPetResourceIsIncludedInResponseBodyWithOneFilter(Table expectedProductResource)
         {
             var expectedResource = expectedProductResource.CreateSet<PetResource>().First();
             var responseData = await Response.Result.Content.ReadAsStringAsync();
             var resource = JsonConvert.DeserializeObject<List<PetResource>>(responseData);
 
             AssertExpectedTypeEqualResponseType(expectedResource, resource.First());
-            if(isAttentionAvailable) AssertExpectedAttentionEqualResponseAttention(expectedResource, resource.First());
-            if(isGenderAvailable) AssertExpectedGenderEqualResponseGender(expectedResource, resource.First());
+        }
+        
+        [Then(@"A Pet Resource is included in Response Body with many Filters")]
+        public async void ThenAPetResourceIsIncludedInResponseBodyWithManyFilters(Table expectedProductResource)
+        {
+            var expectedResource = expectedProductResource.CreateSet<PetResource>().First();
+            var responseData = await Response.Result.Content.ReadAsStringAsync();
+            var resource = JsonConvert.DeserializeObject<List<PetResource>>(responseData);
+
+            AssertExpectedTypeEqualResponseType(expectedResource, resource.First());
+            AssertExpectedAttentionEqualResponseAttention(expectedResource, resource.First());
+            AssertExpectedGenderEqualResponseGender(expectedResource, resource.First());
         }
 
         [Then(@"An empty list is included in Response Body")]
@@ -133,5 +143,7 @@ namespace GrupoWebBackend.Tests
 
             Assert.AreEqual(0, resource.Count);
         }
+
+        
     }
 }
