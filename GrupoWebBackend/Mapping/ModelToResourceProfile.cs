@@ -2,9 +2,13 @@
 using GrupoWebBackend.DomainAdoptionsRequests.Domain.Models;
 using GrupoWebBackend.DomainAdoptionsRequests.Domain.Services.Communications;
 using GrupoWebBackend.DomainAdvertisements.Domain.Models;
+using GrupoWebBackend.DomainPets.Domain.Models;
 using GrupoWebBackend.DomainPublications.Domain.Models;
 using GrupoWebBackend.DomainAdoptionsRequests.Resources;
 using GrupoWebBackend.DomainAdvertisements.Resources;
+using GrupoWebBackend.DomainDistrict.Domain.Models;
+using GrupoWebBackend.DomainDistrict.Resources;
+using GrupoWebBackend.DomainPets.Resources;
 using GrupoWebBackend.DomainPublications.Resources;
 using GrupoWebBackend.Security.Domain.Entities;
 using GrupoWebBackend.Security.Domain.Services.Communication;
@@ -16,6 +20,8 @@ namespace GrupoWebBackend.Mapping
     {
         public ModelToResourceProfile()
         {
+            CreateMap<Pet, PetResource>();
+            CreateMap<District, DistrictResource>();
             CreateMap<Advertisement, AdvertisementResource>();
             CreateMap<Publication, PublicationResource>();
             CreateMap<AdoptionsRequests, AdoptionsRequestsResource>();

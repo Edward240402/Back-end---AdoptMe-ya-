@@ -73,7 +73,7 @@ namespace GrupoWebBackend.DomainPets.Controllers
             return pets;
         }
         
-        [HttpGet("type={type}&gender={gender}&attention={attention}")]
+        [HttpGet("type={type}/gender={gender}/attention={attention}")]
         public async Task<IEnumerable<Pet>> ListPublicationsTypeGenderAttention(string type, string gender, string attention )
         {
             var pets = await _petService.ListPublicationsTypeGenderAttention(type, gender, attention);
