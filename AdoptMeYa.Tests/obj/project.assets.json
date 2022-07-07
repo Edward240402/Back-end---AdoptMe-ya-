@@ -9387,11 +9387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\AdoptMeYa.Tests\\AdoptMeYa.Tests.csproj",
+      "projectUniqueName": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\AdoptMeYa.Tests\\AdoptMeYa.Tests.csproj",
       "projectName": "AdoptMeYa.Tests",
-      "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\AdoptMeYa.Tests\\AdoptMeYa.Tests.csproj",
+      "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\AdoptMeYa.Tests\\AdoptMeYa.Tests.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\AdoptMeYa.Tests\\obj\\",
+      "outputPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\AdoptMeYa.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9408,8 +9408,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj": {
-              "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj"
+            "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj": {
+              "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj"
             }
           }
         }

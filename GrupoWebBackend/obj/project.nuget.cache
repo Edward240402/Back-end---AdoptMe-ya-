@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SYIlwMOEuJjFGVy9DKOyGwVnSq8QZ3RLKrlvOO81ZZPuP2tqtiHYo8sBbHizH3BK6Rdoj7mgyBbWUBB0JMlcwQ==",
+  "dgSpecHash": "vpLYeIkv4078Ij4g5TZIRylxD1MVosiqM59v2TADYsizLtytheVIsADYnKEw284z5gUyBKEo4TnF2Z4MfgHwng==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
+  "projectFilePath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

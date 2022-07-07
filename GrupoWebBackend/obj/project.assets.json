@@ -6737,11 +6737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
+      "projectUniqueName": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
       "projectName": "GrupoWebBackend",
-      "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
+      "projectPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\GrupoWebBackend.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\TF\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\obj\\",
+      "outputPath": "D:\\UPC\\2022 1\\EVOLUCIÓN DE SOFTWARE\\EB\\Back-end---AdoptMe-ya-\\GrupoWebBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
