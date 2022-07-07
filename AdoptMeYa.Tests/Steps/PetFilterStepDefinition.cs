@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 using NUnit.Framework;
 using SpecFlow.Internal.Json;
 using TechTalk.SpecFlow.Assist;
-
+// Nothing
 namespace AdoptMeYa.Tests.Steps
 {
     [Binding]

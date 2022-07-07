@@ -8,10 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c0946c3-99d2-4862-9b43-d9f983b1f871" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdoptMeYa.Tests/bin/Debug/net5.0/TestExecution.json" beforeDir="false" afterPath="$PROJECT_DIR$/AdoptMeYa.Tests/bin/Debug/net5.0/TestExecution.json" afterDir="false" />
-    </list>
+    <list default="true" id="9c0946c3-99d2-4862-9b43-d9f983b1f871" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +190,7 @@
       <workItem from="1656205276750" duration="317000" />
       <workItem from="1656515473763" duration="303000" />
       <workItem from="1656515825102" duration="2536000" />
-      <workItem from="1657223292384" duration="1088000" />
+      <workItem from="1657223292384" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="fix:DomainAdoptionRequests: Added files to commit another domain.Added changes to checkout new branch">
       <created>1651596965050</created>
